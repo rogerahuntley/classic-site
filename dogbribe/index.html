@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../styles.css">
+	<link rel="stylesheet" href="woof.css">
+    <title>Dog Bribes: Revival</title>
+	<link rel="icon" type="image/png" href="../click.png">
+</head>
+<body>
+	<div id="box">
+	<table>
+	<tr><td>
+	<a href="../index.html"><img src="../dogbribeslogo.png" id="logo"></a>
+	</td>
+	<td style="width:100%;">
+	<div id="header"></div>
+	</td>
+	</tr>
+	</table>
+    <div id="content">
+	<div id="mainheader"><font face="Bell MT" size="16px;">Dog Bribes: Revival</font></div>
+	<div>
+
+	<div>
+	  <span style="float:left;">
+	  	<button onclick='save()'>Save</button>
+	  	<button onclick='load()'>Load</button>
+	  	<button id="local" onclick='local()'>Local</button>
+  	</span>
+  	
+	</div>
+	<br />
+	
+	<hr />
+	<div align=center class=Money>Money: $<span id="Money"></span></div>
+	<hr />
+	
+	
+	<table style="display:block;"><tr><td>
+	<div class=animaldiv id=PuppyMenu style="display:table;">
+		<hr />
+		<span style=text-decoration:underline;><b>Puppies</b></span>
+		<br /><br />
+		<div align=left>Puppies: <span class=animalspan id="Puppies" ></span></div>
+		<div align=left>Price: <span class=animalspan>$<span id="PuppiesCost"></span></span></div>
+		<br />
+		<div align=center>$<span id=PuppyCPS></span>/sec</div>
+		<br />
+		<button class=buy id=BuyPuppy onclick='BuyAnimal(0)'>Buy Puppy</button>
+		<hr />
+	</div>
+	</td><td>
+	
+	
+	<div class=animaldiv id=DogMenu style="display:table;">
+		<hr />
+		<span style=text-decoration:underline;><b>Dogs</b></span>
+		<br /><br />
+		<div align=left>Dogs: <span class=animalspan id="Dogs"></span></div>
+		<div align=left>Price: <span class=animalspan>$<span id="DogsCost"></span></span></div>
+		<br />
+		<div align=center>$<span id=DogCPS></span>/sec</div>
+		<br />
+		<button class=buy id=BuyDog onclick='BuyAnimal(1)'>Buy Dog</button>
+		<hr />
+	</div>
+	</td><td>
+	
+	
+	<div class=animaldiv id=WolfMenu style="display:table;">
+		<hr />
+		<span style=text-decoration:underline;><b>Wolves</b></span>
+		<br /><br />
+		<div align=left>Wolves: <span class=animalspan id="Wolves"></span></div>
+		<div align=left>Price: <span class=animalspan>$<span id="WolvesCost"></span></span></div>
+		<br />
+		<div align=center>$<span id=WolfCPS></span>/sec</div>
+		<br />
+		<button class=buy id=BuyWolf onclick='BuyAnimal(2)'>Buy Wolf</button>
+		<hr />
+	</div>
+  </td><td>
+
+		<button align=center onclick=Click() class=mainButton width=120% height=120%><img src="click.png" width=150px height=150px draggable=false></button>
+	</td></tr></table>
+	
+   	<div id="footer"></div>
+    </div>
+    </div>
+	<script src="../universe.js"></script>
+	<script src=animals.js></script>
+	<script src=main.js></script>
+	</div>
+</body>
+</html>

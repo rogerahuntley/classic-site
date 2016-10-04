@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../styles.css">
+    <title>Raycast demo</title>
+	<link rel="icon" type="image/png" href="../click.png">
+</head>
+<body>
+	<div id="box">
+	<table>
+	<tr><td>
+	<a href="../index.html"><img src="../dogbribeslogo.png" id="logo"></a>
+	</td>
+	<td style="width:100%;">
+	<div id="header"></div>
+	</td>
+	</tr>
+	</table>
+    <div id="content">
+	<div id="mainheader"><font face="Bell MT" size="16px;">Raycast demo (unfinished)</font></div>
+	<div style="text-align:center">
+	<canvas id="canvas" width="640" height="480" style="border:1px solid gray;padding: 0;margin: auto;display: block;">
+	</canvas>
+	</div>
+   	<div id="footer"></div>
+    </div>
+    </div>
+	<script src="../universe.js"></script>
+	<script src="jquery-1.11.3.js"></script>
+	<script src="canvas.js"></script>
+	<script src="player.js"></script>
+	<script src="tilemap.js"></script>
+	<script src="controls.js"></script>
+	<script>
+	$(document).ready(
+	init("canvas" ));
+	</script>
+</body>
+</html>

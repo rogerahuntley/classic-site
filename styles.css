@@ -1,0 +1,58 @@
+body {
+	background-color: #b6cef0;
+}
+#crime {
+	background-color: #aaaaaa;
+}
+#footer{
+	text-align:center;
+	clear:both;
+	width:100%;
+}
+.cfooter{
+	text-align:center;
+	float:none;
+	clear:both;
+	width:100%;
+}
+#header{
+	margin:15px;
+}
+.cheader{
+	margin:15px;
+}
+#mainheader{
+	text-align:center;
+	font-weight:bold;
+}
+#poemheader{
+	text-align:center;
+	font-weight:bold;
+}
+.link{
+	font-weight:normal;
+}
+#logo{
+	border:3px solid #1f4e94;
+	border-radius:25px;
+	float:left;
+	margin: 0px 0px 0px 15px;
+	background-color:#ffffff;
+}
+#box{
+	background-color:#f0f5fc;
+	margin:0 auto;
+	width:1000px;
+	border:1px solid gray;
+}
+#content{
+	margin:0px 15px 15px 15px;;
+}
+.stuff{
+    margin: 5px auto; 
+	width:40%;
+	border:2px solid gray;
+	padding:15px;
+	border-radius:5px;
+	float:center;
+}

@@ -1,0 +1,35 @@
+body {
+  background-color:#b6cef0;
+  background-size:cover;
+}
+
+.Money {
+  font-size:200%;
+}
+.animaldiv {
+	width:125px;
+	height:125px;
+}
+
+.mainButton {
+	float:right;
+	background: transparent;
+	border: 5px solid transparent;
+	outline:0;
+	border-radius:17%
+}
+
+.mainButton:hover{
+	border: 1px solid transparent;
+}
+.mainButton:active{
+	border: 2px solid transparent;
+}
+
+.buy {
+	width:100%;
+	
+}
+img {
+	vertical-align: text-top;
+}
